@@ -1,4 +1,6 @@
 FROM ubuntu:latest
+WORKDIR /opt/ansible
+ENV ANSIBLE_INVENTORY=/opt/ansible/hosts
 RUN apt-get update \
     && apt-get install software-properties-common -y \
     && apt-get install vim -y \

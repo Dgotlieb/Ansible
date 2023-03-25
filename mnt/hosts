@@ -1,1 +1,1 @@
-18.184.43.58 ansible_ssh_private_key_file=/opt/ansible/ubuntu.pem ansible_user=ubuntu ansible_python_interpreter=python3
+18.184.43.58 ansible_ssh_private_key_file=/opt/ansible/keys/private.pem ansible_user=ubuntu

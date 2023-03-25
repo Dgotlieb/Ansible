@@ -1,3 +1,3 @@
-cp /opt/ansible/sample/handlers/main.yml /opt/ansible/roles/nginx/handlers/main.yml
-cp /opt/ansible/sample/tasks/main.yml /opt/ansible/roles/nginx/tasks/main.yml
-cp /opt/ansible/sample/server.yml /opt/ansible/server.yml
+cp sample/tasks/main.yml nginx/tasks/main.yml
+cp sample/handlers/main.yml nginx/handlers/main.yml
+cp sample/server.yml .
