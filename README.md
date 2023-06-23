@@ -30,7 +30,7 @@ docker run -it -v %cd%/mnt:/opt/ansible ansible-controller /bin/bash
     
 6. Restrict key permissions:
 ``` bash
-chmod 400 /opt/ansible/private.pem
+chmod 400 keys/private.pem
 ```
 
 6. Validate you can ping your hosts using Ansible:
