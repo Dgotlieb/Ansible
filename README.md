@@ -33,7 +33,7 @@ docker run -it -v %cd%/mnt:/opt/ansible ansible-controller /bin/bash
 chmod 400 keys/private.pem
 ```
 
-6. Validate you can ping your hosts using Ansible:
+7. Validate you can ping your hosts using Ansible:
 ``` bash
 ansible all -m ping
 ```
