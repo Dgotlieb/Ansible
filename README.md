@@ -35,7 +35,7 @@ ansible all -m ping
 ```
 
 
-### Local build  
+### Local build (optional)  
 if you wish to build the Docker image locally, you can run the below commands:  
 1. Build the Docker image:  
 ``` bash
